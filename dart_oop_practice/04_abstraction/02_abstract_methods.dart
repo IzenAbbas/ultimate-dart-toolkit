@@ -28,4 +28,3 @@ void main(){
   c.shapeInfo();
   s.shapeInfo();
 }
-
