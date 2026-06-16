@@ -24,9 +24,7 @@ class BankAccount {
 
 void main() {
   BankAccount account = BankAccount("Izen");
-
   print("Current Balance: ${account.getAmount} pkr");
   print("Setting balance to ${account.setAmount=5000} pkr");
   print("Current Balance: ${account.getAmount} pkr");
-
 }

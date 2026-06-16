@@ -2,8 +2,7 @@ dart_oop_practice/
 │
 ├── 📁 01_encapsulation/
 │   ├── 01_encapsulation_basics.dart
-│   ├── 02_getters_and_setters.dart
-│   └── 03_private_fields.dart
+│   └── 02_getters_and_setters.dart
 │
 ├── 📁 02_inheritance/
 │   ├── 01_inheritance_basics.dart
