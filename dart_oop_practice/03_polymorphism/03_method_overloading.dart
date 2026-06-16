@@ -1,30 +1,16 @@
-class Animal{
-  void sound(){
-    print("Animal is making Sound.");
-  }
-}
+//Dart does not support traditional method overloading
 
-class Dog extends Animal{
-  @override
-  void sound() {
-    // TODO: implement sound
-    print("Dog is Barking.");
-  }
-}
-
-class Cat extends Animal{
-  @override
-  void sound() {
-    // TODO: implement sound
-    print("Cat is meowing.");
+class Calculator{
+  int add (int a, int b, [int? c]){
+    if(c==null){
+      return a+b;
+    }
+    else return a+b+c;
   }
 }
 
 void main(){
-  Animal a = Animal();
-  a.sound();
-  Dog d = Dog();
-  d.sound();
-  Cat c = Cat();
-  c.sound();
+  Calculator c = Calculator();
+  print(c.add(1,2));
+  print(c.add(1,2,3));
 }

@@ -24,7 +24,7 @@ void main(){
   Animal a = Animal();
   a.sound();
   Dog d = Dog();
-  a.sound();
-  a = Cat();
-  a.sound();
+  d.sound();
+  Cat c = Cat();
+  c.sound();
 }
