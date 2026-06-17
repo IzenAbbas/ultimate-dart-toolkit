@@ -13,4 +13,8 @@ void main() {
   else{
     print("No need for sun glasses");
   }
+
+  for (var i in Weather.values){
+    print(i.name);
+  }
 }
