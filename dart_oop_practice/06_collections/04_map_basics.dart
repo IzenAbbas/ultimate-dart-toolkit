@@ -11,5 +11,5 @@ void main(){
   print(students);
 
   students["name"]="Abbas";
-  print("Students");
+  print(students);
 }
