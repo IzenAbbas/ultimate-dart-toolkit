@@ -8,4 +8,5 @@ void main(){
   Person p =Person("Izen");
   print(p.name);
   //p.name = "Abbas", Now, it is not allowed even though name is a public attribute.
+  // But still p = Person("Abbas") is allowed, we are going to solve this problem in next file.
 }
