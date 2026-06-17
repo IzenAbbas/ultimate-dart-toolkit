@@ -1,100 +1,53 @@
-dart_oop_practice/
-│
-├── 📁 01_encapsulation/
-│   ├── 01_encapsulation_basics.dart
-│   └── 02_getters_and_setters.dart
-│
-├── 📁 02_inheritance/
-│   ├── 01_inheritance_basics.dart
-│   ├── 02_super_keyword.dart
-│   └── 03_constructor_inheritance.dart
-│
-├── 📁 03_polymorphism/
-│   ├── 01_polymorphism_basics.dart
-│   ├── 02_method_overriding.dart
-│   └── 03_method_overloading.dart
-│
-├── 📁 04_abstraction/
-│   ├── 01_abstract_class.dart
-│   ├── 02_abstract_methods.dart
-│   └── 03_interfaces.dart
-│
-├── 📁 05_singleton_and_factory/
-│   ├── 01_singleton_class.dart
-│   ├── 02_factory_constructor.dart
-│   └── 03_factory_design_pattern.dart
-│
-├── 📁 06_collections/
-│   ├── 01_list_basics.dart
-│   ├── 02_list_final.dart
-│   ├── 03_set_basics.dart
-│   ├── 04_map_basics.dart
-│   ├── 05_const_and_final_collections.dart
-│   ├── 06_mutable_vs_immutable.dart
-│   └── 07_collection_if_for_operators.dart
-│
-├── 📁 07_generics/
-│   ├── 01_generics_basics.dart
-│   ├── 02_generic_class.dart
-│   ├── 03_generic_methods.dart
-│   └── 04_var_dynamic_const_final.dart
-│
-├── 📁 08_static/
-│   ├── 01_static_variables.dart
-│   ├── 02_static_methods.dart
-│   └── 03_static_memory_point.dart
-│
-├── 📁 09_immutable_class/
-│   ├── 01_immutable_class_basics.dart
-│   └── 02_const_constructor.dart
-│
-├── 📁 10_copy/
-│   ├── 01_shallow_copy.dart
-│   └── 02_deep_copy.dart
-│
-├── 📁 11_mixins/
-│   ├── 01_mixin_basics.dart
-│   ├── 02_multiple_inheritance_via_mixins.dart
-│   └── 03_mixin_with_methods.dart
-│
-├── 📁 12_enums/
-│   ├── 01_enum_basics.dart
-│   ├── 02_enum_with_values.dart
-│   └── 03_enum_methods.dart
-│
-├── 📁 13_extensions/
-│   ├── 01_extension_basics.dart
-│   ├── 02_extension_on_string.dart
-│   └── 03_extension_on_custom_class.dart
-│
-├── 📁 14_null_safety/
-│   ├── 01_nullable_types.dart
-│   ├── 02_null_aware_operator.dart        // ?
-│   ├── 03_null_coalescing_operator.dart   // ??
-│   └── 04_null_assertion_operator.dart    // !
-│
-├── 📁 15_async/
-│   ├── 01_future_basics.dart
-│   ├── 02_future_completed_value.dart
-│   ├── 03_future_uncompleted.dart
-│   ├── 04_future_wait.dart
-│   ├── 05_async_await.dart
-│   ├── 06_streams_basics.dart
-│   ├── 07_single_subscription_stream.dart
-│   ├── 08_broadcast_stream.dart
-│   ├── 09_stream_creation_example.dart
-│   ├── 10_yield_basics.dart
-│   └── 11_yield_async_generator.dart      // yield with *async
-│
-├── 📁 16_spread_cascade/
-│   ├── 01_spread_operator.dart
-│   └── 02_cascade_operator.dart
-│
-└── 📁 17_dio_package/
-├── 01_dio_setup.dart
-├── 02_get_request_200.dart
-├── 03_post_request_201.dart
-├── 04_put_request_400.dart
-├── 05_delete_request_404.dart          // or other 4xx
-├── 06_api_status_codes.dart
-└── 07_error_handling_500.dart
+# Dart OOP & Core Concepts Practice
+
+A comprehensive and structured collection of Dart programming exercises. This repository covers everything from foundational Object-Oriented Programming (OOP) principles to advanced asynchronous operations, design patterns, and API handling.
+
+---
+
+## Repository Structure
+
+### Object-Oriented Programming (OOP)
+* **`01_encapsulation/`** — Basics, Getters, and Setters.
+* **`02_inheritance/`** — Inheritance basics, `super` keyword, and Constructor inheritance.
+* **`03_polymorphism/`** — Polymorphism basics, Method Overriding, and Method Overloading.
+* **`04_abstraction/`** — Abstract classes, Abstract methods, and Interfaces.
+
+### Class Design & Patterns
+* **`05_singleton_and_factory/`** — Singleton classes, Factory constructors, and the Factory design pattern.
+* **`09_immutable_class/`** — Immutable class basics and `const` constructors.
+* **`10_copy/`** — Shallow copy vs. Deep copy concepts.
+* **`11_mixins/`** — Mixin basics, Multiple inheritance via mixins, and Mixins with methods.
+
+### Data Structures, Types & Safety
+* **`06_collections/`** — Lists, Sets, Maps, Mutability, and Collection `if`/`for` operators.
+* **`07_generics/`** — Generic basics, Generic classes, Generic methods, and `var`/`dynamic`/`const`/`final`.
+* **`12_enums/`** — Enum basics, Enums with values, and Enum methods.
+* **`14_null_safety/`** — Nullable types, Null-aware `?`, Null-coalescing `??`, and Null-assertion `!` operators.
+
+### Advanced Dart Features
+* **`08_static/`** — Static variables, Static methods, and memory management.
+* **`13_extensions/`** — Extension basics, Extensions on Strings, and Extensions on custom classes.
+* **`16_spread_cascade/`** — Spread operators (`...`) and Cascade operators (`..`).
+
+### Asynchronous Programming
+* **`15_async/`** — Comprehensive guide to asynchronous Dart:
+  * Futures (basics, completed values, uncompleted, `Future.wait()`).
+  * `async` / `await` workflows.
+  * Streams (basics, single-subscription vs. broadcast streams, creation examples).
+  * `yield` basics and `yield*` with `async*` generators.
+
+### Networking & APIs
+* **`17_dio_package/`** — HTTP networking using the Dio package:
+  * Setup and configurations.
+  * `GET` (200 OK) and `POST` (201 Created) requests.
+  * `PUT` (400 Bad Request) and `DELETE` (404 Not Found) requests.
+  * API status codes and Error handling (500 Internal Server Error).
+
+---
+
+## How to Run
+
+1. Make sure you have the [Dart SDK](https://dart.dev/get-dart) installed.
+2. Clone the repository:
+   ```bash
+   git clone [https://github.com/IzenAbbas/practice.git](https://github.com/IzenAbbas/practice.git)
