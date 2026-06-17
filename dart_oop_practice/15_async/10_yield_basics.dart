@@ -23,8 +23,6 @@ Iterable<int> fibonacci(int count) sync* {
 
 void main() {
   print(countUp(5).toList());
-
   print(evenNumbers(10).toList());
-
   print(fibonacci(8).toList());
 }

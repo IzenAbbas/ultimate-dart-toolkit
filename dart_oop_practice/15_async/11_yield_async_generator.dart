@@ -24,18 +24,14 @@ Stream<int> naturalsUntil(int max) async* {
 }
 
 void main() async {
-  print('--- ticker ---');
   await for (int tick in ticker(4)) {
     print('tick: $tick');
   }
 
-  print('--- pages ---');
   List<String> urls = ['api/users', 'api/posts', 'api/comments'];
   await for (String response in fetchPages(urls)) {
     print(response);
   }
-
-  print('--- yield* ---');
   await for (int n in naturalsUntil(5)) {
     print(n);
   }
